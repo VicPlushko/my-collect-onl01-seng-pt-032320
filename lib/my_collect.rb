@@ -8,5 +8,3 @@ end
 end
 
 my_collect(languages) {|language| language.upcase}
-
-my_collect(students) {|student|
