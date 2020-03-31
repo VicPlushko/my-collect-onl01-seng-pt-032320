@@ -9,6 +9,6 @@ end
 
 
 
-my_collect() do |language|
+my_collect(['ruby', 'javascript', 'python', 'objective-c']) do |language|
  language.upcase
 end
