@@ -5,6 +5,7 @@ def my_collect(array)
   new_array << yield(array[i])
   i += 1
 end
+return new_array
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
