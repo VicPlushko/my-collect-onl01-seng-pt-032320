@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_collect(array)
   new_array =[]
   i = 0
@@ -11,4 +13,5 @@ languages = ["ruby", "javascript", "python", "objective-c"]
 
 my_collect(languages) do |language|
   language.upcase
+  binding.pry
 end
