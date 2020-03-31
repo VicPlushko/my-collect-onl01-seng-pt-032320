@@ -9,5 +9,4 @@ return new_array
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(languages) { |
-end
+my_collect(languages) { |language| language.upcase}
