@@ -8,7 +8,7 @@ end
 return new_array
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
+languages = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect(languages) do |language|
+  language.upcase
 end
