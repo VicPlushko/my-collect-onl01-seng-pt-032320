@@ -9,4 +9,4 @@ end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 
-my_collect(languages) {|language| language.upcase}
+my_collect([languages]) {|language| language.upcase}
